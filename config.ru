@@ -1,0 +1,2 @@
+require 'shortr'
+run Shortr
