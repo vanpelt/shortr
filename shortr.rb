@@ -13,7 +13,6 @@ class Shortr < Sinatra::Base
   end
 
   get "/:shortned" do
-    puts "Looking for #{params[:shortned]}"
     url = Shortr.url(params[:shortned])    
     url && !params[:redirect] ? redirect(url) : 404
   end
