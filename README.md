@@ -1,6 +1,6 @@
 # Shortr
 
-Shortr is a small Sinatra app that makes url shorten urls on your own domain.  It provides the following urls:
+Shortr is a small Sinatra app that magically turns your own domain into a url shortening service!  It provides the following HTTP resources:
 
 This allows you to obtain the next shortcode for a url:
 
